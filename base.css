@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600&display=swap');
+*, ::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --fx14: 14px;
+    --fx17: 17px;
+    --fx42: 42px;
+    --fx94: 94px;
+    --fx30: 30px;   
+    --primary-color: #f2295b;
+    --second-color: #415161;
+    --color-1: #67727D;
+    --while-color: #ffffff;
+    --fw-600: 600;
+    --fw-500: 500;
+    --lh-100: 100px;
+    --lh-94: 94px;
+    --lh-14: 14px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+    cursor: pointer;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+span, img {
+    display: inline-block;
+
+}
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+body {
+    font-family: 'Barlow', sans-serif; /* Text */
+    overflow-x: hidden;
+}
+h1 {
+    font-size: var(--fx94);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    transition: all 0.4s;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Teko', sans-serif; /* h1 */
+}
+::selection {
+    background-color: var(--primary-color);
+    color: var(--while-color);
+}
+@media (max-width: 900px) {
+    /* :root {
+        --fx94: 10px;
+    } */
+    
+}

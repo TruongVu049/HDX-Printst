@@ -1,0 +1,306 @@
+:root {
+    --fx14: 14px;
+    --fx17: 17px;
+    --fx42: 42px;
+    --fx94: 94px;
+    --fx30: 30px;   
+    --primary-color: #f2295b;
+    --second-color: #415161;
+    --color-1: #67727D;
+    --while-color: #ffffff;
+    --fw-600: 600;
+    --fw-500: 500;
+    --lh-100: 100px;
+    --lh-94: 94px;
+    --lh-14: 14px;
+    --pd-100: 100px;
+}
+
+/* =============================  RESPONSIVE HOME ==============================================*/
+@media (max-width: 1200px) {
+    /* ================= SLIDE IMAGE ========================== */
+    .slide-image {
+        padding: 10px 0;
+    }
+    .slide-image .iamge-container .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .slide-image .iamge-container .slide-image {
+        padding: 60px;
+        width: 50%;
+    }
+    .slide-image7 {
+        width: 50%;
+        padding: 50px;
+    }
+    .slide-image .row .slide-image3 {
+        width: 100%;
+    }
+    .slide-image3-content {
+        float: right;
+    }
+    .slide-image3-content h2 {
+        float: none;
+        width: 100%;
+    }
+    .slide-image3-content .button {
+        text-align: left;
+    }
+    /* ============================ FEATURED PRODUCTS ======================== */
+    .featured-products {
+        padding-bottom: 0;
+    }
+    .featured-2 {
+        border-bottom: 0;
+    }
+    .featured-3 {
+        padding: 0;
+    }
+    /* ================================= BANNER ORDER =============================== */
+    .banner-order {
+        padding: 0;
+        display: block;
+    }
+    /* .banner-order .banner-left {
+        padding: 0;
+    } */
+    .banner-order .banner-left, .banner-order .banner-right {
+        width: 100%;
+        padding: 0;
+    }
+    .banner-order .banner-overlay-right .banner-content {
+        height: inherit;
+        width: inherit;
+        padding: 0;
+        position: relative;
+    }
+}
+
+@media (max-width: 920px) {
+    /* ======================== Edit root ============================ */
+    :root {
+        --fx14: 12.7px;
+        --fx17: 15.5px;
+        --fx42: 25px;
+        --fx94: 46.5px;
+        --fx30: 20px;   
+        --lh-100: 46px;
+        --lh-94: 94px;
+        --lh-14: 14px;
+        --pd-100: 100px;
+    }
+
+    /* ======================= HEADER NAV ============================ */
+    header .haeder-nav {
+        padding: 25px;
+    }
+    header .nav-right{
+        display: none;
+    }
+    header .navbar-mobile {
+        display: block;
+    }
+    /* =============================== HEADER SLIDE SHOW ============================= */
+    .slide-show .slide-show-left, .slide-show .slide-show-right  {
+        width: 50%;
+    }
+    /* ============================== SLIDE IMAGR ============================== */
+    .slide-image3 {
+        padding: 80px;
+        display: flex;
+    }
+    .slide-image3 div:nth-child(1) {
+        width: 50%;
+    }
+    .slide-image .iamge-container .slide-image {
+        padding: 70px;
+    }
+    /* =========================== FEATURED =============================== */
+    /* ========== LIST ============== */
+    .featured-1 {
+        padding: 50px 20px;
+    }
+    .featured-1-list {
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 40px;
+    }
+    .featured-2 {
+        padding: 0;
+    }
+    .featured-3 .featured-3-slideshow .slideshow-right {
+        padding: 24px;
+    }
+    /* =================== TITLE CONTENT =================================== */
+    .title-content h2 {
+        line-height: 28px;
+    }
+    .title-content p {
+        line-height: 27px;
+    }
+    .featured-3 .title-content p {
+        padding-bottom: 20px;
+    }
+    /* ======================= BANNER ORDER ============================= */
+    .banner-order .banner-right {
+        padding: 0;
+    }
+    /* ============================= FOOTER TOP =============================== */
+    .footer-content .footer-top {
+        flex-direction: column;
+        justify-content: center;
+  
+    }
+    .footer-content .footer-top .footer-top-link {
+        flex-direction: column;
+        align-items: normal;
+        text-align: center;
+    }
+}
+
+/* ========================================= RESPONSIVE TABLET =================================== */
+
+/* ========================================== HEADER SLIDE ============================================== */
+@media (max-width: 780px) {
+    .header-slide .slide-show {
+        flex-direction: column;
+    }
+    .header-slide .slide-show .slide-show-left {
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .slide-show .slide-show-left, .slide-show .slide-show-right {
+        width: 100%;
+        text-align: center;
+    }
+    /* ================================== SLIDE IMAGE ====================================== */
+    .slide-image .iamge-container .slide-image {
+        width: 100%;
+        padding: 100px;
+    }
+    .slide-image1 p {
+        text-align: center;
+    }
+    .slide-image7 {
+        width: 100%;
+    }
+    /* ======================================== SALE =========================================== */
+    .sale-top-container {
+        flex-direction: column-reverse;
+    }
+    .sale-top-container .sale-top-content {
+        text-align: center;
+        padding-top: 40px;
+    }
+    .sale-bottom-container {
+        flex-direction: column;
+    } 
+    .sale-bottom-container h4 {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    /* ======================================== FEATURED VIDEO ============================ */
+    .featured-2 .featured-2-video {
+        height: 200px;
+    }
+    .featured-2-video .overlay-video .featured-2-watch {
+        bottom: -50%;
+        right: 70%;
+    }
+    .featured-3 .featured-3-slideshow {
+        flex-direction: column;
+    }
+    .featured-3 .featured-3-slideshow .slideshow-left {
+        width: 100%;
+        padding: 120px 0 0 0;
+        text-align: center;
+    }
+    .featured-3 .featured-3-slideshow .slideshow-right {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    /* ============================ OPEN VIDEO ================================ */
+    .open-video {
+        z-index: 200;
+    }
+    .open-video video {
+        width: 80%;
+        z-index: 200;
+
+    }
+    /* ======================================= BANNER =================================== */
+    .banner-left, .banner-right {
+        text-align: center;
+    }
+}
+
+/* ============================================================= RESPONSIVE SCREEN SMALL ======================================= */
+@media (max-width: 550px) {
+    :root {
+        --fx94: 38px;
+    }
+    /* ======================================== FEATURED ========================================= */
+    .featured-1 {
+        padding: 20px 10px;
+    }
+    .featured-1 .featured-1-list {
+        grid-template-columns: 1fr 1fr;
+    }
+    .featured-2-video .overlay-video .featured-2-watch {
+        right: 50%;
+    }
+    /* ========================================= BANNER ================================== */
+    .banner-order .banner-right {
+    }
+
+    /* ================================ FOOTER BOTTOM ================================ */
+    .footer-content .footer-bottom {
+        padding: 20px 0;
+    }
+    .footer-content .footer-bottom .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-content .footer-bottom p {
+        padding: 6px 0;
+    }
+    .footer-content .footer-top {
+        padding: 60px 0;
+    }
+}
+
+
+@media (max-width: 400px) {
+    /* ===================================== FEATURED +================================ */
+    .featured-1 .featured-1-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/* ===================================== RESPONSIVE ALL PRODUCTS ============================================== */
+/* =====================  PHONE LAGRE */
+@media (max-width: 780px) {
+    .all-product .featured-1-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* ===================== PHONE SMALL */
+@media (max-width: 550px) {
+    .all-product .featured-1-list {
+        grid-template-columns: 1fr;
+    }
+    .all-product .featured-1-tags {
+        flex-direction: column;
+    }
+    .all-product .featured-1-tag-right {
+        padding: 20px 0 10px 0  ;
+    }
+    .all-product #featured-1-select {
+        width: 100%;
+    }
+}

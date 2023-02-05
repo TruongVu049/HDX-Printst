@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- ============ STYLE BASE ================= -->
+    <link rel="stylesheet" href="/base.css">
+    <!-- ============ STYLE CUSTOM =========== -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- =================== CSS RESPONSIVE ============================================ -->
+    <link rel="stylesheet" href="/responsive.css">
+    <!-- ========= FONTAWESOME ============== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- ============ OPEN CART =============== ====== -->
+    <div class="open-cart">
+        <div class="overlay">
+            <div class="open-cart-overlay">
+                <div class="shopping-cart">
+                    <div class="shopping-cart-top">
+                        <h3>Shopping Cart</h3>
+                        <i class="fa-solid fa-xmark"></i>   
+                    </div>
+                    <div class="shopping-cart-center">
+                        <div class="cart-empty">
+                            <h4>No products in the cart.</h4>
+                        </div>
+                        <div class="cart-noempty">
+    
+                        </div>
+                    </div>
+                    <div class="shopping-cart-bottom">
+                        <button>countinue shopping</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================================ OPEN FILTER ===================================== -->
+    <div class="open-filter">
+        <div class="overlay">
+            <div class="filter-container">
+                <h2>PRODUCT CATEGORIES</h2>
+                <div class="radio-input-value">
+                    <label class="radio-row">mugs
+                        <input type="radio" value="mugs" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio-row">tshirt
+                        <input type="radio" value="tshirts" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio-row">Uncategorized
+                        <input type="radio" value="all" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <h2>FILTER BY PRICE</h2>
+                <div class="range-input-value">
+                    <div class="price-field">
+                        <input type="range" min="0" max="300" value="0" id="lower">
+                        <input type="range" min="0" max="300" value="300" id="upper">
+                    </div>
+                    <div class="filter-price">
+                        <p>price: </p>
+                        <span class="price-low">10</span>
+                        $ - 
+                        <span class="price-high">40</span>
+                        $
+                    </div>
+                    <div class="submit-filter">
+                        <button >
+                            <span>filter</span>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="close-filter">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==================================== HEADER ======================================== -->
+    <header>
+        <div class="haeder-nav">
+            <div class="nav-left">
+                <img src="https://websitedemos.net/custom-printing-04/wp-content/uploads/sites/222/2018/06/site-logo-free-img-1.png" alt="logo">
+            </div>
+            <div class="nav-right">
+                <ul class="ul-link">
+                    <li><a  href="/index.html">home</a></li>
+                    <li><a class="active" href="./allproducts/allproducts.html">all products</a></li>
+                    <li><a href="#">tshirts</a></li>
+                    <li><a href="#">mugs</a></li>
+                    <li><a href="#">about hdx</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li class="active-list">
+                        <a href="#">account
+                            <i class="fa-solid fa-chevron-down"></i>    
+                        </a>
+                        <div class="list-dow">
+                            <div class="nav-down">
+                                <a href="#">my account</a>
+                                <a href="#">cart</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="nav-cart">
+                    <div class="price">
+                        $6.00
+                    </div>
+                    <div class="cart">
+                        <i class="fa-solid fa-bag-shopping">
+                            <span>7</span>
+
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-mobile">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="open-navbar-mobile">
+            <div class="overlay">
+                <div class="navbar-mobile-link">
+                    <div class="navbar-mobile-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <ul >
+                        <li><a  href="/index.html">home</a></li>
+                        <li><a class="active" href="./allproducts/allproducts.html">all products</a></li>
+                        <li><a href="#">tshirts</a></li>
+                        <li><a href="#">mugs</a></li>
+                        <li><a href="#">about hdx</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li class="active-list">
+                            <div class="navbarM-a">
+                                <a href="#">account
+                                </a>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                
+                            </div>
+                            
+                            <div class="navbarM-list-dow">
+                                <div class="navM-down">
+                                    <a href="#">my account</a>
+                                    <a href="#">cart</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="nav-cart" >
+                        <div class="price">
+                            $6.00
+                        </div>
+                        <div class="cart">
+                            <i class="fa-solid fa-bag-shopping">
+                                <span>7</span>
+    
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="all-product">
+        <div class="featured-products">
+            <div class="container">
+                <div class="featured-1">
+                    <div class="featured-1-tags">
+                       <div class="featured-1-tag-left">
+                            <div class="featured-1-filter">
+                                <i class="fa-solid fa-bars"></i>
+                                <span>filter</span>
+                            </div>
+                            <div class="featured-1-shotting">
+                                Showing
+                                <span class="count">1</span>
+                                of
+                                <span class="countTotal">11</span>
+                            </div>
+                       </div>
+                       <div class="featured-1-tag-right">
+                            <select name="" id="featured-1-select">
+                                <option value="a">Default sorting</option>
+                                <option value="b">Sort by popularity</option>
+                                <option value="c">Sort by average rating</option>
+                                <option value="d">Sort by latest</option>
+                                <option value="lowtohigh">Sort by price: low to high</option>
+                                <option value="hightolow">Sort by price: high to low</option>
+                            </select>
+                       </div>
+                    </div>
+                    <div class="featured-1-list">
+                       
+                    </div>
+                </div>
+                <div class="featured-load-more">
+                    <span>load more</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-top">
+                <div class="footer-top-link">
+                    <ul class="footer-link-left">
+                        <li><a href="/index.html">home</a></li>
+                        <li><a href="#">about HDX</a></li>
+                        <li><a href="#">my account</a></li>
+                    </ul>
+                    <ul class="footer-link-right">
+                        <li><a href="#">tshirts</a></li>
+                        <li><a href="#">mugs</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-top-icon">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p>Copyright © 2023 Custom Printing Pro</p>
+                    <p>Powered by Custom Printing Pro</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div>https://codepen.io/sln/pen/peGwVp</div>
+    <script>
+        // window.addEventListener("DOMContentLoaded", function(){
+        //     let script = document.createElement("script");
+        //     let body = document.querySelector("body");
+        //     script.src = "/app.js";
+        //     body.append(script);
+        // })
+        
+    </script>
+    <script type="module" src="/allproducts/allproducts.js"></script>
+</body>
+</html>
