@@ -2,7 +2,7 @@
 const items = [
     {
         type: "tshirts",
-        iamge: "/image/ts1.jpg",
+        iamge: "./image/ts1.jpg",
         sale: true,
         content: "printed blue tshirt",
         vote: 4,
@@ -10,7 +10,7 @@ const items = [
     },
     {
         type: "tshirts",
-        iamge: "/image/tshirt5.jpg",
+        iamge: "./image/tshirt5.jpg",
         sale: false,
         content: "printed blue tshirt",
         vote: 4,
@@ -18,7 +18,7 @@ const items = [
     },
     {
         type: "tshirts",
-        iamge: "/image/tshirt3.jpg",
+        iamge: "./image/tshirt3.jpg",
         sale: false,
         content: "printed blue tshirt",
         vote: 4,
@@ -26,7 +26,7 @@ const items = [
     },
     {
         type: "tshirts",
-        iamge: "/image/tshirt7.jpg",
+        iamge: "./image/tshirt7.jpg",
         sale: true,
         content: "printed blue tshirt",
         vote: 4,
@@ -34,7 +34,7 @@ const items = [
     },
     {
         type: "mugs",
-        iamge: "/image/mug-white.jpg",
+        iamge: "./image/mug-white.jpg",
         sale: false,
         content: "black printed coffee mug",
         vote: 4,
@@ -42,7 +42,7 @@ const items = [
     },
     {
         type: "mugs",
-        iamge: "/image/mug-blue.jpg",
+        iamge: "./image/mug-blue.jpg",
         sale: true,
         content: "black printed coffee mug",
         vote: 4,
@@ -50,7 +50,7 @@ const items = [
     },
     {
         type: "mugs",
-        iamge: "/image/mug-yellow.jpg",
+        iamge: "./image/mug-yellow.jpg",
         sale: true,
         content: "black printed coffee mug",
         vote: 4,
@@ -58,7 +58,7 @@ const items = [
     },
     {
         type: "mugs",
-        iamge: "/image/mug-blue.jpg",
+        iamge: "./image/mug-blue.jpg",
         sale: true,
         content: "black printed coffee mug",
         vote: 4,
